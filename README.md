@@ -7,5 +7,5 @@ Uses 127.0.0.1:8080 address.
 2. Run 'main' file that appeared by the make command
 3. Now it can be tested by curl. Example command:
 ```
-culr http://localhost:8080
+curl http://localhost:8080
 ```
