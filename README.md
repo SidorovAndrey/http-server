@@ -9,3 +9,11 @@ Uses 127.0.0.1:8080 address.
 ```
 curl http://localhost:8080
 ```
+
+### Routes feature
+Web server supports routes. For now, specified string just returned for exact route added via
+```
+add_handler("/my-route", func_handler);
+```
+
+func_handler must return string.
